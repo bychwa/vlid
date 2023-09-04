@@ -97,7 +97,7 @@ additional transpilation_.
 - **Simple API** - Keep the public API clean and simple (easy to learn), without too many ways to do the same
 thing
 - **Async validation** - Validation is done async so that async rules can be easily added at any time. You _can_
-use `validateSync` if there are no async valiation rules (i.e. rules that return a `Promise` object). If there
+use `validateSync` if there are no async validation rules (i.e. rules that return a `Promise` object). If there
 are any, then `validateSync` with throw an error. All built-in rules can be run either async or sync.
 - **80 / 20 rule** - vlid.js provides all the staple built-ins that you need in 80%+ of most typical apps, and
 provides easy ways to add your own rules for the 20% or less of cases where you need something custom.  This
